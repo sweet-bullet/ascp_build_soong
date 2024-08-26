@@ -213,6 +213,9 @@ com\.google\.wear\..*
 vendor\.google_clockwork\.displayoffload3
 vendor\.google_clockwork\.displayoffload3\..*
 
+# LMODroid adds
+com\.libremobileos\..*
+
 # NT adds
 com\.nothing
 com\.nothing\..*
