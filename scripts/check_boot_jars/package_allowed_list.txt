@@ -242,3 +242,6 @@ org\.ifaa\.android\.manager.*
 
 # ASCP
 org\.ascp\..*
+
+# Camera Extensions
+com.camera.camera2.extensions.*
