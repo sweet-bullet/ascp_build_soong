@@ -320,6 +320,7 @@ func main() {
 	// memory-constrained workstations.  An explicitly forwarded GOGC still wins.
 	if os.Getenv("GOGC") == "" {
 		debug.SetGCPercent(50)
+		debug.SetMemoryLimit(45 * 1024 * 1024 * 1024)
 	}
 
 	flag.Parse()
